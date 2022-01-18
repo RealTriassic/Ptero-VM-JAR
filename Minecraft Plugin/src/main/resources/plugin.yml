@@ -1,5 +1,3 @@
-# Setting Plugin Name to EssentialsX to prevent
-# it from being detected by Plugin Name.
-name: 'Vault'
-version: '1.7.3'
-main: net.milkbowl.vault.Main
+name: 'ProtocolLib'
+version: '4.7.1-SNAPSHOT'
+main: com.comphenix.protocol.Main
