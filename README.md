@@ -12,11 +12,6 @@ Go ahead and upload the PteroVM jar to your server's files, then, upload your cu
 2. Open a Terminal.
 3. Run `mvn clean package` and you should get a jarfile in a folder called `target`.
 
-### Compiling Bukkit Plugin
-1. Download all of the files in the `Minecraft Plugin` folder.
-2. Open a Terminal.
-3. Run `mvn clean package` and you should get a jarfile in a folder called `target`.
-
 ### Issues
 If you experience an issue whilst running or compiling Ptero-VM in a JAR, please open a new issue, if your issue is related to compilation, please make sure you are compiling correctly according to the guidelines above and that you have not tampered with the `.java` file.
 
