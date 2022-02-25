@@ -4,7 +4,7 @@ This project is a Java implementation of [Afnan's Ptero-VM](https://github.com/a
 ### How does this work
 The jarfile downloads another file that can be seen [here](https://github.com/afnan007a/Ptero-vm/blob/main/installer.sh), afterwards it executes it, the script goes ahead and installs a PRoot enviroment in your server (also known as a docker container), this allows you to execute *most* root Linux commands on your server.
 
-### How to load my own custom script files
+### How to load your own custom script files
 Go ahead and upload the PteroVM jar to your server's files, then, upload your custom script file and rename it to `custom.sh`, this will cause PteroVM to skip the download of `installer.sh` and load from your `custom.sh` script file instead.
 
 ### Compiling Standalone
