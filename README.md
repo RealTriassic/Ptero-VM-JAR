@@ -1,9 +1,6 @@
 # Ptero-VM in a JAR.
 This project is a Java implementation of [Afnan's Ptero-VM](https://github.com/afnan007a/Ptero-vm) that was made for Pterodactyl, this project was created to support a even larger variety of hosting services than Ptero-VM could.
 
-### WARNING
-The Bukkit Plugin containing PteroVM currently has an issue where you have to run a command twice for it to be sent, please bare with this for now as I attempt to find a solution, if you know of a solution, feel free to send a pull request.
-
 ### How does this work
 The jarfile downloads another file that can be seen [here](https://github.com/afnan007a/Ptero-vm/blob/main/installer.sh), afterwards it executes it, the script goes ahead and installs a PRoot enviroment in your server (also known as a docker container), this allows you to execute *most* root Linux commands on your server.
 
