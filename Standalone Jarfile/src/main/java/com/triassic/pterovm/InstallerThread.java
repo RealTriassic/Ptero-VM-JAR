@@ -15,7 +15,6 @@ public class InstallerThread extends Thread {
             if (customScript.exists()) {
 
                 System.out.println("Found custom.sh file, loading from custom.sh...");
-                System.out.flush();
 
                 // Send special ANSI codes to center cursor, also known as "clearing console screen".
                 System.out.print("\033[H\033[2J");
@@ -27,7 +26,6 @@ public class InstallerThread extends Thread {
             } else {
 
                 System.out.println("No custom.sh file was found, loading from installer.sh...");
-                System.out.flush();
 
                 // Send special ANSI codes to center cursor, also known as "clearing console screen".
                 System.out.print("\033[H\033[2J");
