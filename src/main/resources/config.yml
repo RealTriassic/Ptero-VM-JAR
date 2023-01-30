@@ -1,0 +1,41 @@
+#-------------------------------------------------------------------------------------#
+#                                                                                     #
+#      @@@@@@@   @@@@@@@  @@@@@@@@  @@@@@@@    @@@@@@      @@@  @@@  @@@@@@@@@@       #
+#      @@@@@@@@  @@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@@     @@@  @@@  @@@@@@@@@@@      #
+#      @@!  @@@    @@!    @@!       @@!  @@@  @@!  @@@     @@!  @@@  @@! @@! @@!      #
+#      !@!  @!@    !@!    !@!       !@!  @!@  !@!  @!@     !@!  @!@  !@! !@! !@!      #
+#      @!@@!@!     @!!    @!!!:!    @!@!!@!   @!@  !@!     @!@  !@!  @!! !!@ @!@      #
+#      !!@!!!      !!!    !!!!!:    !!@!@!    !@!  !!!     !@!  !!!  !@!   ! !@!      #
+#      !!:         !!:    !!:       !!: :!!   !!:  !!!     :!:  !!:  !!:     !!:      #
+#      :!:         :!:    :!:       :!:  !:!  :!:  !:!      ::!!:!   :!:     :!:      #
+#       ::          ::     :: ::::  ::   :::  ::::: ::       ::::    :::     ::       #
+#       :           :     : :: ::    :   : :   : :  :         :       :      :        #
+#                                                                                     #
+#-------------------------------------------------------------------------------------#
+
+# If you have any issues or questions whilst attempting to run Ptero-VM, let us know!
+# https://github.com/RealTriassic/Ptero-VM-JAR
+
+
+# Set messages that should be printed to console during start-up.
+# This is usually used to set server status to "Online" on game management panels such as Pterodactyl.
+startup_messages:
+  enabled: true  # Default: true
+  # You can add or remove entries here, you can have as many messages to be printed as you'd like.
+  text:
+    - "Done (0.000s)! For help, type \"help\""
+    - "Listening on /0.0.0.0:0"
+
+
+# File to use for when searching for custom script file.
+# This is usually used if the host you are using is blocking custom.sh from running.
+filename: "custom.sh"  # Default: custom.sh
+
+
+# The URL used to download the script file from.
+# The download should start instantly when the JAR tries to visit it.
+url: "https://raw.githubusercontent.com/afnan007a/Ptero-vm/main/installer.sh"
+
+
+# DO NOT MODIFY.
+config_version: 1.0.2
